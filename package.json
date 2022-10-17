@@ -1,0 +1,21 @@
+{
+  "name": "@memotux/nuxt-quasar-template",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.1.1",
+    "@nuxt/image-edge": "^1.0.0-27719579.87dcdf2",
+    "@quasar/extras": "^1.15.3",
+    "nuxt": "3.0.0-rc.11",
+    "nuxt-quasar-vite": "^1.0.7",
+    "quasar": "^2.8.4",
+    "sass": "1.32.12",
+    "vue-gtag": "^2.0.1"
+  }
+}

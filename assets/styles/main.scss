@@ -1,0 +1,73 @@
+@import 'quasar/src/css/variables.sass';
+
+:root {
+  --q-terciary: #808080;
+  --q-body: #cccccc;
+}
+
+body {
+
+  &.body--dark {
+    color: var(--q-body) !important;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--q-body);
+    }
+    a {
+      color: var(--q-body);
+
+      &:hover {
+        color: var(--q-terciary);
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg {
+  &-terciary {
+    background-color: var(--q-terciary) !important;
+  }
+  &-body {
+    background-color: var(--q-body) !important;
+  }
+}
+.text {
+  &-terciary {
+    color: var(--q-terciary) !important;
+  }
+  &-body {
+    color: var(--q-body) !important;
+  }
+}
+
+.container {
+  max-width: 95%;
+}
+
+@media (min-width: $breakpoint-sm-min) {
+  .container {
+    max-width: 85%;
+  }
+}
+@media (min-width: $breakpoint-md-min) {
+  .container {
+    max-width: 75%;
+  }
+  .text-columns-md-2 {
+    columns: 2;
+  }
+}
+@media (min-width: $breakpoint-lg-min) {
+  .container {
+    max-width: 65%;
+  }
+}
