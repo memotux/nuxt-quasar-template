@@ -1,5 +1,6 @@
 {
   "name": "@memotux/nuxt-quasar-template",
+  "private": true,
   "version": "1.0.0",
   "scripts": {
     "build": "nuxt build",
