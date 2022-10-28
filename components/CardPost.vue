@@ -1,12 +1,9 @@
 <script setup lang="ts">
-import { qdate } from '#imports'
 import ProseImg from './content/ProseImg.vue'
 import type { ContentPost } from '~~/types'
 defineProps<{
   post?: ContentPost
 }>()
-
-const { formatDate } = qdate
 </script>
 
 <template>
