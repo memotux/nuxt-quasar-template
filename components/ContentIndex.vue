@@ -9,7 +9,7 @@ const props = defineProps({
     default: {
       where: {
         _path: {
-          $contains: props.contains,
+          $contains: 'posts',
         },
         status: 'publish',
       },
